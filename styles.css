@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Splash";
+    src: url("./public/Splash-Regular.ttf");
+}
+
+.container{
+    margin-top: 75px;
+    
+}
+
+
+
+.col-5{
+    
+    
+    background-color: #F6A7A2;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    color: #45465C;
+    
+
+}
+
+.col-4{
+    padding-top:55px;
+}
+
+.row{
+    justify-content: center;
+}
+
+
+body{
+
+    background-image: url(./public/fondo.png);
+    background-size: cover;
+
+}
+
+.lead{
+    text-align: justify;
+    margin-top: 40px;
+    
+    padding-right: 20px;
+   
+   
+    
+
+    
+}
+
+h1{ font-size: 2rem;
+    padding-top: 30px;
+    
+    font-family: Splash;
+    
+    text-align: center;
+
+    color: #45465C;
+    
+}
+
+.btn-outline-light :hover{
+    transform: scale(1.1);
+}
+
+.text-center {
+    margin-top: -30px;
+}
+
+
+
